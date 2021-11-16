@@ -1,0 +1,75 @@
+
+a {color: black;
+text-decoration: none;
+}
+@font-face {
+  font-family: "Consolas";
+  src: url(consolas.ttf);
+}
+h1{
+  font-family: Consolas;
+  font-size: 50px;
+  text-align: center;
+}
+h2,h3,h4,h5,h6,h7{
+  font-family: consolas;
+  font-size: 20px;
+  text-align: left;
+  padding: 15px;
+  margin: 0
+}
+ul{
+  font-family: consolas;
+  font-size: 30px;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+.intro, .work{
+  font-family: consolas;
+  font-size: 15px;
+}
+div.work{
+  text-align: left;
+}
+
+body {font-family: consolas;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+::placeholder {
+  font-family: consolas;
+}
+input[type="submit"]{
+  font-family: consolas;
+  font-size: 15px;
+}
